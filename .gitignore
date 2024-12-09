@@ -12,7 +12,7 @@ scanf("%d",&c);
 for(i=a;i<=b;i++)
 {
 printf(" %d \t",d);
-d=d+c;
+c=d+c;
 }
 printf(" the size of variable is %d bytes", sizeof(d));
     return 0;
