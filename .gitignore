@@ -1,22 +1,20 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+#include<stdio.h>
+#include<conio.h>
+int main()
+{ 
+int a,b,c,d,i;
+printf("enter the lower value of sequence ");
+scanf("%d",&a);
+printf("enter the upper value of sequence ");
+scanf("%d",&b);
+printf("enter the difference value of sequence ");
+scanf("%d",&c);
+for(i=a;i<=b;i++)
+{
+printf(" %d \t",d);
+d=d+c;
+}
+printf(" the size of variable is %d bytes", sizeof(d));
+    return 0;
+    getch();
+}
